@@ -1,0 +1,83 @@
+#main{
+  display: flex;
+  padding: 15px;
+  align-items: center;
+   margin-left: 15%;
+}
+
+.content,.item,.date{
+	width:300px;
+	padding:19px 20px;
+    margin: 13px 15px;
+	border-radius: 15px;
+	outline-style: none;
+	font-size: 18px;
+}
+.heading{
+	display: block;
+    align-items: center;
+	text-align: center;
+	margin-left: 2%;
+	font-family: vardana;
+	text-transform: uppercase;
+}
+#adds{
+	 width: 80px;
+	     margin: 12px 15px;
+	 height: 40px;
+font-weight: bold;
+	 border:2px solid green;
+	 background-color: green;
+	 color: white
+}
+.discardbtn{
+	 width: 80px;
+	 height: 40px;
+	 margin-left: 30%;
+	 margin-top: 20px;
+	 font-weight: bold;
+}
+.Editbutton{
+	  width: 80px;
+	 height: 40px;
+	 margin-left: 30%;
+	 margin-top: 20px;
+	 font-weight: bold;
+	 background-color: #045472;
+	 color: white;
+	 font-size: 20px;
+	 font-family: vardana;
+}
+
+.titleid,.contentId{
+	 font-weight: bold;
+	 font-family:"vardana";
+	 padding:20px;
+	 font-size: 18px;
+}
+.addItems,.dta{
+	border-radius: 40px;
+	margin: 20px;
+	width: 400px;
+	padding: 20px;
+	border: 2px solid black;
+}
+.dta{
+	 border-color: white;
+}
+
+ li{
+	   list-style: none;
+
+}
+#main div:nth-of-type(2) {
+  flex-basis: 400px;
+  padding: 30px;
+  border: 2px solid black;
+  overflow: scroll;
+  width: 100%;
+  height: 450px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
